@@ -1,5 +1,6 @@
 
 #include <stdio.h>
+#define VERSION "1.0"
 
 void print_message(void)
 {
@@ -7,7 +8,7 @@ void print_message(void)
 }
 void print_version(void)
 {
-    printf("Version 1.0\n");
+    printf("Version %s\n", VERSION);
 }
 int main(void)
 {
