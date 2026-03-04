@@ -1,7 +1,13 @@
+
 #include <stdio.h>
+
+void print_message(void)
+{
+    printf("Hello, Embedded World!\n");
+}
 
 int main(void)
 {
-    printf("Hello, Embedded World!\n");
+    print_message();
     return 0;
 }
